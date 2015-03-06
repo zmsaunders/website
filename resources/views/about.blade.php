@@ -8,17 +8,17 @@
         <div class="container">
             <div class="third">
                 <h2><i class="fa fa-code"></i> I write.</h2>
-                <img src="/assets/images/code.png" />
+                <img src="/images/code.png" />
                 <p>Php, Javascript, Html, and Css are what I love, and I'm damn good at it. I'm trying to be damn good at many more.</p>
             </div>
             <div class="third">
                 <h2><i class="fa fa-dashboard"></i> I optimize.</h2>
-                <img src="/assets/images/timeline.png" />
+                <img src="/images/timeline.png" />
                 <p>It's not done until it's shipped, and it's not shipped until it's fast. A faster web is a better web.</p>
             </div>
             <div class="third">
                 <h2><i class="fa fa-refresh"></i> I do it over again.</h2>
-                <img src="/assets/images/log.png" />
+                <img src="/images/log.png" />
                 <p>There is always room for improvement, regardless of the project. It can always be refactored, improved, and sped up.</p>
             </div>
         </div>
