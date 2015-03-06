@@ -15,6 +15,6 @@ require('laravel-elixir-ruby-sass');
 
 elixir(function(mix) {
     mix
-    	.rubySass('master.scss', 'public/css')
-    	.version('css/master.css');
+    	.rubySass('main.scss', 'public/css')
+    	.version('css/main.css');
 });
