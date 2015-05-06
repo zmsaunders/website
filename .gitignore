@@ -2,5 +2,6 @@
 /node_modules
 .env
 .sass-cache
+.idea
 node_models
 public/build/
