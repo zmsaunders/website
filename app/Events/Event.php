@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Mandible\Events;
 
 abstract class Event {
 

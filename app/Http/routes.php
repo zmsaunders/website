@@ -17,6 +17,13 @@ Route::get('/', function(){
 
 Route::get('home', 'HomeController@index');
 
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function(){
+	// Posts
+	Route::get('posts', ['as' => 'admin.post.list', 'uses' => 'PostController@getIndex']);
+	Route::get('posts/new', ['as' => 'admin.post.create', 'uses' => 'PostController@getModify']);
+	Route::post('posts/new', ['as' => 'admin.post.create', 'uses' => 'PostController@postSave']);
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

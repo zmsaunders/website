@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace Mandible\Services;
 
-use App\User;
+use Mandible\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

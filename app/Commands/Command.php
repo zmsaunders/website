@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Mandible\Commands;
 
 abstract class Command {
 

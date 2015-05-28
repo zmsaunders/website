@@ -1,4 +1,4 @@
-<?php namespace App\Http\Middleware;
+<?php namespace Mandible\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
