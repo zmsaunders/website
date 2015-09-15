@@ -15,6 +15,10 @@ Route::get('/', function(){
 	return view('about');
 });
 
+Route::group(['namespace' => 'News', 'prefix' => 'blog'], function(){
+	Route::get('/', ['as' => 'blog.index', 'uses' => 'ListingController@entries']);
+});
+
 Route::get('home', 'HomeController@index');
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function(){
